@@ -1,0 +1,28 @@
+# 忽略 IntelliJ IDEA / PyCharm 配置目录
+.idea/
+
+# 忽略模块文件
+*.iml
+*.iws
+*.ipr
+
+# 忽略编译输出目录
+out/
+target/
+build/
+dist/
+
+# 忽略 Python 缓存 (如果是 Python 项目)
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略日志文件
+*.log
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略 jupyter notebook 模板文件
+sample.ipynb
