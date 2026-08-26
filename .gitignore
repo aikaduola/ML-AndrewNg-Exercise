@@ -26,3 +26,9 @@ Thumbs.db
 
 # 忽略 jupyter notebook 模板文件
 sample.ipynb
+
+
+# Jupyter Notebook 自动备份目录
+.ipynb_checkpoints
+**/.ipynb_checkpoints
+**/*/.ipynb_checkpoints

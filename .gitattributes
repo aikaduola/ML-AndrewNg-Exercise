@@ -7,3 +7,6 @@
 
 # 如果有 Unix/Linux 专属脚本，强制使用 LF
 *.sh text eol=lf
+
+# 指定所有.ipynb文件使用nbstripout过滤器
+*.ipynb filter=nbstripout
