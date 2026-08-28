@@ -23,6 +23,7 @@ axes.grid: False
 axes.edgecolor: f0f0f0
 axes.linewidth: 3.0
 axes.titlesize: x-large
+axes.unicode_minus: False
 
 patch.edgecolor: f0f0f0
 patch.linewidth: 0.5
@@ -33,10 +34,10 @@ grid.linestyle: -
 grid.linewidth: 1.0
 grid.color: cbcbcb
 
-xtick.major.size: 0
-xtick.minor.size: 0
-ytick.major.size: 0
-ytick.minor.size: 0
+xtick.major.size: 3.5
+xtick.minor.size: 2.0
+ytick.major.size: 3.5
+ytick.minor.size: 2.0
 
 savefig.edgecolor: f0f0f0
 savefig.facecolor: f0f0f0
@@ -108,7 +109,9 @@ font.stretch: normal
 font.size:    8.0
 
 font.serif:      DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
-font.sans-serif: Verdana, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+# font.sans-serif: Verdana, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+# use windows font
+font.sans-serif: Microsoft YaHei, SimHei, DejaVu Sans, Arial
 font.cursive:    Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
 font.fantasy:    Chicago, Charcoal, Impact, Western, Humor Sans, xkcd, fantasy
 font.monospace:  DejaVu Sans Mono, Bitstream Vera Sans Mono, Computer Modern Typewriter, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
@@ -120,4 +123,7 @@ font.monospace:  DejaVu Sans Mono, Bitstream Vera Sans Mono, Computer Modern Typ
 ## The text properties used by `text.Text`.
 ## See https://matplotlib.org/api/artist_api.html#module-matplotlib.text
 ## for more information on text properties
-#text.color: black
+xtick.color: black
+ytick.color: black
+axes.labelcolor: black
+text.color: black
